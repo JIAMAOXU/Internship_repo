@@ -140,7 +140,6 @@ always @(posedge aclk)begin
                 MSIP1_ADDR: rdata  <= {31'b0, msip_1[0]};
                 SSIP0_ADDR: rdata  <= {31'b0, ssip_0[0]};
                 SSIP1_ADDR: rdata  <= {31'b0, ssip_1[0]};
-                default: read_address <= 32'h00000000;
             endcase
             rresp         <= `AXI_RESPONSE_OKAY;
             read_complete <= 1'b1;           
@@ -256,7 +255,7 @@ always @(posedge aclk) begin
                 write_complete <= 1'b1;
             end
         else begin 
-            write_complete <= 1'b0;   
+            write_complete <= 1'b0;
             end
         end        
 end   
@@ -280,5 +279,3 @@ always @(posedge aclk) begin
 end
 
 endmodule
-
-
