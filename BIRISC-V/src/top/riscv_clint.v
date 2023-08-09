@@ -256,7 +256,7 @@ always @(posedge aclk) begin
                 write_complete <= 1'b1;
             end
         else begin 
-            write_complete <= 1'b0;
+            write_complete <= 1'b0;   
             end
         end        
 end   

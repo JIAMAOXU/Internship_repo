@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/aaaa/vivado_file/axi_clint_fpga_01/axi_clint_fpga_01.srcs/sources_1/new/clint.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clint
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/aaaa/vivado_file/axi_clint_fpga_01/axi_clint_fpga_01.srcs/sources_1/new/clint_master.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_master
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'read_data' is not allowed [D:/aaaa/vivado_file/axi_clint_fpga_01/axi_clint_fpga_01.srcs/sources_1/new/clint_master.v:39]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/aaaa/vivado_file/axi_clint_fpga_01/axi_clint_fpga_01.srcs/sim_1/new/maste_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clint_tb

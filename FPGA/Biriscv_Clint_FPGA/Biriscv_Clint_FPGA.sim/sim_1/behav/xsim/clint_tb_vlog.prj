@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../axi_clint_fpga_01.srcs/sources_1/new/clint.v" \
+"../../../../axi_clint_fpga_01.srcs/sources_1/new/clint_master.v" \
+"../../../../axi_clint_fpga_01.srcs/sim_1/new/maste_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

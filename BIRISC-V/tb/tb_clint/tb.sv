@@ -125,33 +125,51 @@ module tb
     clint  clint
 
 (
-        .aclk(clk),      
-        .areset(rst),          
+        . clk_i(clk),      
+        . rst_i(rst),          
         
-        .ipi0_m_o(mip0),        
-        .ipi1_m_o(mip1),  
-        .ipi0_s_o(sip0),        
-        .ipi1_s_o(sip1),     
+        . mipi0_o(mip0),        
+        . mipi1_o(mip1),  
+        . sipi0_o(sip0),        
+        . sipi1_o(sip1),     
     
-        .awaddr(awaddr),   // Write Address
-        .awvalid(awvalid), // Write Address Valid
-        .awready(awready), // Write Address Ready
+        . awid(awid),    // Address Write ID (optional)
+        . awaddr(awaddr),   // Write Address
+        . awlen(awlen),   // Burst Length
+        . awsize(awsize),  // Burst Size
+        . awburst(awburst), // Burst Type
+        . awlock(awlock),  // Lock Type
+        . awcache(awcache), // Cache Type
+        . awprot(awprot),  // Protection Type
+        . awvalid(awvalid), // Write Address Valid
+        . awready(awready), // Write Address Ready
      
-        .wdata(wdata),  // Write Data
+        .wid(wid),     // Write ID
+        .wrdata(wdata),  // Write Data
+        .wstrb(wstrb),   // Write Strobes
         .wlast(wlast),   // Write Last
         .wvalid(wvalid),  // Write Valid
         .wready(wready),  // Write Ready
         
+        
+        .bid(bid),    // Response ID
         .bresp(bresp),  // Write Response
         .bvalid(bvalid), // Write Response Valid
         .bready(bready), // Response Ready
         
         
+        .arid(arid),    // Read Address ID
         .araddr(araddr),  // Read Address
+        .arlen(arlen),   // Burst Length  
+        .arsize(arsize),  // Burst Size
+        .arlock(arlock),  // Lock Type
+        .arcache(arcache), // Cache Type
+        .arprot(arprot),  // Protection Type
         .arvalid(arvalid), // Read Address Valid
         .arready(arready), // Read Address Ready
         
         
+        .rid(rid),     // Read ID
         .rdata(rdata),   // Read Data
         .rresp(rresp),   // Read Response
         .rlast(rlast),   // Read Last
@@ -189,4 +207,3 @@ module tb
     end
        
 endmodule
-
