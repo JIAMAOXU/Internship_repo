@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 package master_package;
 
-//事务，addr表示awaddr/araddr的值，we表示此次事务是写寄存器还是读寄存器
+//锟斤拷锟斤拷addr锟斤拷示awaddr/araddr锟斤拷值锟斤拷we锟斤拷示锟剿达拷锟斤拷锟斤拷锟斤拷写锟侥达拷锟斤拷锟斤拷锟角讹拷锟侥达拷锟斤拷
 class bus_trans#(
     parameter MSIP0_ADDR = 32'h02000000,
     parameter MSIP1_ADDR = 32'h02000004,
@@ -19,7 +19,7 @@ class bus_trans#(
     };
 endclass
 
-// 产生事务
+// 锟斤拷锟斤拷锟斤拷锟斤拷
 class axi_generator#(
     parameter MSIP0_ADDR = 32'h02000000,
     parameter MSIP1_ADDR = 32'h02000004,
@@ -52,7 +52,7 @@ class axi_generator#(
     endtask
 endclass
 
-// 根据相应的事务产生激励发给slave
+// 锟斤拷锟斤拷锟斤拷应锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟絪lave
 class axi_master;
     local virtual wb_bus intf;
     local bus_trans trans;
@@ -70,7 +70,7 @@ class axi_master;
     function void set_interface(virtual wb_bus intf);
         this.intf = intf;
     endfunction
-    // 复位
+    // 锟斤拷位
     task do_reset();
         intf.awaddr <= 'b0;
         intf.awvalid <= 'b0;
@@ -148,7 +148,7 @@ class axi_master;
         end        
     endtask
     
-    //各个channel在这里并行执行
+    //锟斤拷锟斤拷channel锟斤拷锟斤拷锟斤并锟斤拷执锟斤拷
     task run();
         do_reset();
         forever begin
@@ -162,7 +162,7 @@ class axi_master;
     endtask
 endclass
 
-//在这里将axi_master和axi_generator连接起来
+//锟斤拷锟斤拷锟斤将axi_master锟斤拷axi_generator锟斤拷锟斤拷锟斤拷锟斤拷
 class agent;
     axi_master master;
     axi_generator generator;
