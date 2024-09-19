@@ -1,0 +1,687 @@
+<mxfile host="Electron" modified="2023-07-23T07:21:28.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="8nJU5c-QZggcn5wbU4r6" version="21.5.0" type="device">
+  <diagram name="第 1 页" id="yuqwW5JbFqkmMex9bKwy">
+    <mxGraphModel dx="14547" dy="3231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-115" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1095.67" y="5840.08" as="sourcePoint" />
+            <mxPoint x="1640" y="5840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-116" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;DATA RAM&lt;br style=&quot;&quot;&gt;32*2048&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=25;" parent="1" vertex="1">
+          <mxGeometry x="720" y="5640" width="184.85" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-117" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="402" y="5760" as="sourcePoint" />
+            <mxPoint x="720" y="5710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="402" y="5710" />
+              <mxPoint x="560" y="5710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-118" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="1075.75" y="5771.99" width="34.25" height="137.02" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-119" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.006;exitY=0.458;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;entryX=0.274;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-118" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="904.8499999999999" y="5810" as="sourcePoint" />
+            <mxPoint x="1060" y="5810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-120" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;entryX=0.638;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BFDmAr2N_gwTuCGvSeWa-146" target="BFDmAr2N_gwTuCGvSeWa-118" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="904.8499999999999" y="5969.29" as="sourcePoint" />
+            <mxPoint x="1070" y="5861" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="6010" />
+              <mxPoint x="1050" y="5859" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-121" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="6310" as="sourcePoint" />
+            <mxPoint x="529.5800000000004" y="5760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="5760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-122" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.51;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BFDmAr2N_gwTuCGvSeWa-123" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="6240" as="sourcePoint" />
+            <mxPoint x="1078.38" y="6181.88" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1078.38" y="6241.88" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-123" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="983.23" y="6190" width="40" height="101.88" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-124" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1023.2299999999996" y="6506.02" as="sourcePoint" />
+            <mxPoint x="1108.38" y="6181.88" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1108" y="6506" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-125" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=0.692;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-123" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="941" y="6260.820000000001" as="sourcePoint" />
+            <mxPoint x="981" y="6260.63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-126" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;0&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="959.38" y="6240" width="10.62" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-127" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-133" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="574.5999999999999" y="6260.88" as="sourcePoint" />
+            <mxPoint x="920" y="6200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="574.5999999999999" y="6160.88" />
+              <mxPoint x="923" y="6161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-128" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;tag0_&lt;br&gt;hit_w&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1033.83" y="6184.88" width="66.33" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-129" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;tag1_&lt;br&gt;hit_w&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1111" y="6186.88" width="40" height="26.94" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-130" value="data0_data_out_w[31:0]" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="904.8499999999999" y="5779" width="130" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-131" value="data1_data_out&lt;br&gt;_w[31:0]" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="909.23" y="5963.719999999999" width="130" height="18.28" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-132" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.995;exitY=0.534;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BFDmAr2N_gwTuCGvSeWa-157" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="6310" as="sourcePoint" />
+            <mxPoint x="923.23" y="6221.88" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="923" y="6310" />
+              <mxPoint x="923.23" y="6241.88" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-133" value="=" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="913.23" y="6201.88" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-134" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=0.207;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-123" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="933.23" y="6211.38" as="sourcePoint" />
+            <mxPoint x="980" y="6211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-135" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;mem_data_rd_o&amp;nbsp; [31:0]&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1465" y="5811.0599999999995" width="163.9" height="26.94" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-136" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;outport_addr_o [31:0]&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1476" y="6813.28" width="174" height="25.72" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-137" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=east;" parent="1" vertex="1">
+          <mxGeometry x="1043.23" y="6141.88" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-138" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="BFDmAr2N_gwTuCGvSeWa-137" target="BFDmAr2N_gwTuCGvSeWa-118" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="6000" as="sourcePoint" />
+            <mxPoint x="1100" y="5910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-139" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="563.4200000000005" y="5760" as="sourcePoint" />
+            <mxPoint x="720" y="5760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-140" value="data_addr_m_r [10:0]" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="561" y="5684" width="151.3" height="18.01" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-141" value="data_addr_x_r [10:0]" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="564.5" y="5733" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-142" value="data0_data_&lt;br&gt;in_m_w [31:0]" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="567.8" y="5760" width="146.2" height="16.03" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-143" value="mem_addr_i [31:0]" style="text;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-73" y="6282.69" width="150" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-144" value="D" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="5786" width="33.84" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-145" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="5810" as="sourcePoint" />
+            <mxPoint x="530" y="5808" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="6060" />
+              <mxPoint x="240" y="5808" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-146" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;DATA RAM&lt;br&gt;32*2048&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="718.3" y="5890" width="184.85" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-147" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400.3800000000001" y="6010" as="sourcePoint" />
+            <mxPoint x="718.3800000000001" y="5960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400.3800000000001" y="5960" />
+              <mxPoint x="558.3800000000001" y="5960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-148" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-155" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="6310" as="sourcePoint" />
+            <mxPoint x="533.3800000000001" y="6009.47" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="6010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-149" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="BFDmAr2N_gwTuCGvSeWa-155" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="567.76" y="6009.58" as="sourcePoint" />
+            <mxPoint x="718.3800000000001" y="6010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-150" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1.02;exitY=0.575;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BFDmAr2N_gwTuCGvSeWa-154" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="568.3800000000001" y="6057.719999999999" as="sourcePoint" />
+            <mxPoint x="650" y="6080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="6059" />
+              <mxPoint x="630" y="6080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-151" value="data_addr_m_r [10:0]" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="559.76" y="5933" width="150.62" height="18.01" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-152" value="data_addr_x_r [10:0]" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="563.76" y="5983" width="147.97" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-153" value="data0_data_&lt;br&gt;in_m_w [31:0]" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="564.4200000000001" y="6013.969999999999" width="186.82" height="16.03" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-154" value="D" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="528.3800000000001" y="6036" width="33.84" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-155" value="D" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="527.96" y="5990" width="33.84" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-156" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="6270" as="sourcePoint" />
+            <mxPoint x="528.3800000000001" y="6058" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="6270" />
+              <mxPoint x="240" y="6058" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-157" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;TAG RAM&lt;br&gt;21*256&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="718.3800000000001" y="6180" width="184.85" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-158" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-165" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="6310" as="sourcePoint" />
+            <mxPoint x="522" y="6263" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="6260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-159" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=-0.003;entryY=0.543;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-157" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="6310" as="sourcePoint" />
+            <mxPoint x="718" y="6313" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-160" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.334;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BFDmAr2N_gwTuCGvSeWa-165" target="BFDmAr2N_gwTuCGvSeWa-157" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="566.3899999999999" y="6311.46" as="sourcePoint" />
+            <mxPoint x="714" y="6214" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-161" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="BFDmAr2N_gwTuCGvSeWa-164" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="567.01" y="6359.599999999999" as="sourcePoint" />
+            <mxPoint x="717.01" y="6359.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-162" value="tag_addr_m_r [7:0]" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="572.5999999999999" y="6283.6900000000005" width="130.3" height="18.01" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-163" value="tag_data_in_m_r [20:0]" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="559.81" y="6329.88" width="168.19" height="16.03" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-164" value="D" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="527.01" y="6337.88" width="33.84" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-165" value="D" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="524.6700000000001" y="6240.69" width="35.76" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-166" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="6310" as="sourcePoint" />
+            <mxPoint x="526.5899999999999" y="6359.76" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="6360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-167" value="tag_addr_x_r [7:0]" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="576.71" y="6233.68" width="130.3" height="18.01" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-168" value="mem_data_wr_i [31:0]" style="text;whiteSpace=wrap;html=1;fontSize=15;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-73" y="6243.41" width="160" height="40.31" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-169" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=-0.003;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-182" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="6308" as="sourcePoint" />
+            <mxPoint x="526.1044800000002" y="6578.46" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="6577" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-170" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="6570" as="sourcePoint" />
+            <mxPoint x="527.8899999999999" y="6624.34" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="6624" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-171" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1314.25" y="6030" as="sourcePoint" />
+            <mxPoint x="1400" y="6030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1314.25" y="6030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-172" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="961.48" y="6161.29" as="sourcePoint" />
+            <mxPoint x="1050.98" y="6161.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-173" value="D" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="529.5800000000002" y="5740" width="33.84" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-175" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="983.23" y="6450" width="40" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-176" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="943.23" y="6528" as="sourcePoint" />
+            <mxPoint x="983" y="6528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-177" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;0&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="959" y="6507.8099999999995" width="30" height="25.22" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-178" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-180" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="574.5999999999999" y="6528" as="sourcePoint" />
+            <mxPoint x="920" y="6467.12" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="574.5999999999999" y="6428" />
+              <mxPoint x="923" y="6428.12" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-179" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1.005;exitY=0.542;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BFDmAr2N_gwTuCGvSeWa-182" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="6577.12" as="sourcePoint" />
+            <mxPoint x="923.23" y="6489" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="923" y="6577.12" />
+              <mxPoint x="923.23" y="6509" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-180" value="=" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="913.23" y="6469" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-181" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=0.195;entryY=1.051;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="935.27" y="6478.75" as="sourcePoint" />
+            <mxPoint x="983.2299999999996" y="6478.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-182" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;TAG RAM&lt;br&gt;21*256&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="718.3800000000001" y="6447.12" width="184.85" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-183" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-189" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="6577.12" as="sourcePoint" />
+            <mxPoint x="522" y="6530.12" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="6527.12" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-184" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.34;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BFDmAr2N_gwTuCGvSeWa-189" target="BFDmAr2N_gwTuCGvSeWa-182" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="566.3899999999999" y="6578.58" as="sourcePoint" />
+            <mxPoint x="714" y="6481.12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-185" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.74;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BFDmAr2N_gwTuCGvSeWa-188" target="BFDmAr2N_gwTuCGvSeWa-182" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="567.01" y="6626.719999999999" as="sourcePoint" />
+            <mxPoint x="717" y="6627" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-186" value="tag_addr_m_r [7:0]" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="571.5999999999999" y="6552.81" width="130.3" height="18.01" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-187" value="tag_data_in_m_r [20:0]" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="559.81" y="6597" width="168.19" height="16.03" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-188" value="D" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="527.01" y="6605" width="33.84" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-189" value="D" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="524.6700000000001" y="6507.8099999999995" width="35.76" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-190" value="tag_addr_x_r [7:0]" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="577.71" y="6501.8" width="130.3" height="18.01" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-191" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="1032.0500000000002" y="6692.12" width="40" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-192" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.278;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-191" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="6720" as="sourcePoint" />
+            <mxPoint x="1030" y="6719" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-193" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.678;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-191" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="6760" as="sourcePoint" />
+            <mxPoint x="1032.0500000000002" y="6759.09" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-194" value="STATE_EVICT" style="text;whiteSpace=wrap;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="919.0500000000002" y="6694.12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-195" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=-0.003;entryY=0.166;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-197" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1065" y="6243" as="sourcePoint" />
+            <mxPoint x="1064.92" y="6606.03" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-196" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1032.8250000000007" y="6614.995" width="38.4399999999996" height="48.20389724310735" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-197" value="" style="shape=or;whiteSpace=wrap;html=1;rotation=90;" parent="BFDmAr2N_gwTuCGvSeWa-196" vertex="1">
+          <mxGeometry x="-0.8250000000006139" y="0.8249999999998181" width="40.09" height="38.44" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-198" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=90;" parent="BFDmAr2N_gwTuCGvSeWa-196" vertex="1">
+          <mxGeometry x="15.634523809523216" y="41.024999999999636" width="7.1788972431077696" height="7.1788972431077696" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-199" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=0.023;entryY=0.824;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-197" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1039.99" y="6507.15" as="sourcePoint" />
+            <mxPoint x="1039.2344799999998" y="6613.026979999999" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-200" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1051.8400000000001" y="6663.2" as="sourcePoint" />
+            <mxPoint x="1051.8400000000001" y="6700" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-201" value="STATE_LOOKUP" style="text;whiteSpace=wrap;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="901.23" y="6734" width="130" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-202" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="6713.12" width="40" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-203" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="6762.81" as="sourcePoint" />
+            <mxPoint x="1287" y="6762.81" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-204" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="6780" as="sourcePoint" />
+            <mxPoint x="1190" y="6780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-205" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;STATE_EVICT&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1079" y="6716" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-206" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1072.05" y="6741.69" as="sourcePoint" />
+            <mxPoint x="1190" y="6742" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-207" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="6360" as="sourcePoint" />
+            <mxPoint x="650" y="6100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="6360" />
+              <mxPoint x="280" y="6100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-208" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;size=10;" parent="1" vertex="1">
+          <mxGeometry x="649.45" y="6060" width="25.1" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-209" value="outport_read_data_i" style="text;whiteSpace=wrap;fontSize=15;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-73" y="6332.89" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-210" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="662.24" y="6141.88" as="sourcePoint" />
+            <mxPoint x="661.74" y="6113.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-211" value="STATE_REFILL" style="text;whiteSpace=wrap;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="553.45" y="6119" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-212" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;STATE_REFILL&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1073" y="6754" width="126" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-213" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="6310" as="sourcePoint" />
+            <mxPoint x="530" y="6820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="6820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-214" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="760" y="6792.12" width="40" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-215" value="|pmem_len_w&#xa;pmem_rd_w&#xa;（这个信号说明有refill要求或者存储器读使能）" style="text;whiteSpace=wrap;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="786.46" y="6890" width="116.77" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-216" value="pmem_addr_q" style="text;whiteSpace=wrap;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="642.4100000000001" y="6833" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-218" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="6913" as="sourcePoint" />
+            <mxPoint x="779.71" y="6883" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-219" value="mem_addr_m_q" style="text;whiteSpace=wrap;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="630.4100000000001" y="6795.84" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-220" value="D" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="529.5799999999999" y="6800" width="33.84" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-221" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.311;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-214" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="564" y="6822.98" as="sourcePoint" />
+            <mxPoint x="750" y="6823" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-222" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="6840" as="sourcePoint" />
+            <mxPoint x="1640" y="6840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="6840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-223" value="{mem_addr_m_q[31:5], {(5){1&#39;b0}}" style="text;whiteSpace=wrap;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="806" y="6813.12" width="245.15" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-224" value="{evict_addr_w, {(5){1&#39;b0}}}" style="text;whiteSpace=wrap;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="806" y="6835" width="491.27" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-225" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=-0.003;entryY=0.832;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-146" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="674.55" y="6089.73" as="sourcePoint" />
+            <mxPoint x="710" y="6090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-226" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1.02;exitY=0.575;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="564.1500000000001" y="5805" as="sourcePoint" />
+            <mxPoint x="651.1500000000001" y="5826" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="631.1500000000001" y="5805" />
+              <mxPoint x="631.1500000000001" y="5826" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-227" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;size=10;" parent="1" vertex="1">
+          <mxGeometry x="650.5999999999999" y="5806" width="25.1" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-228" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="661.95" y="5891" as="sourcePoint" />
+            <mxPoint x="661.45" y="5863" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-229" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=-0.002;entryY=0.834;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675.7" y="5835.73" as="sourcePoint" />
+            <mxPoint x="719.1500000000001" y="5836" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-230" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="6106" as="sourcePoint" />
+            <mxPoint x="650" y="5850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280.5" y="6106" />
+              <mxPoint x="281" y="5850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-231" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1034.85" y="6009.969999999999" as="sourcePoint" />
+            <mxPoint x="1279.85" y="6009.969999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1034.85" y="6009.969999999999" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-232" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=0.652;entryY=0.942;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-233" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="5810" as="sourcePoint" />
+            <mxPoint x="1280" y="6040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1030" y="5810" />
+              <mxPoint x="1030" y="6050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-233" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="5960" width="34.25" height="137.02" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-234" value="replace_way_q" style="text;whiteSpace=wrap;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1191" y="6093" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-235" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1296.9299999999998" y="6120" as="sourcePoint" />
+            <mxPoint x="1297.15" y="6088" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-236" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="1399.87" y="5992.98" width="34.25" height="137.02" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-237" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="BFDmAr2N_gwTuCGvSeWa-239" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="6150" as="sourcePoint" />
+            <mxPoint x="1399.87" y="6097.02" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1350" y="6160" />
+              <mxPoint x="1350" y="6097" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-238" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="BFDmAr2N_gwTuCGvSeWa-239" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1460" y="6060" as="sourcePoint" />
+            <mxPoint x="1280" y="6170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1460" y="6200" />
+              <mxPoint x="1250" y="6200" />
+              <mxPoint x="1250" y="6160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-239" value="D" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="6140" width="33.84" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-240" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1434" y="6060" as="sourcePoint" />
+            <mxPoint x="1640" y="6060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1434" y="6060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-396" value="outport_write_data_o [31:0]" style="text;whiteSpace=wrap;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="6194.88" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BFDmAr2N_gwTuCGvSeWa-397" value="outport_write_data_o [31:0]" style="text;whiteSpace=wrap;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1437" y="6032.51" width="190" height="31.49" as="geometry" />
+        </mxCell>
+        <mxCell id="NVtBtvNFf2o66A0Ym8Qq-1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=0.311;entryY=1.093;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="6860" as="sourcePoint" />
+            <mxPoint x="760" y="6859.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

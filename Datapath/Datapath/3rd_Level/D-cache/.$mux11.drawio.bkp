@@ -1,0 +1,139 @@
+<mxfile host="Electron" modified="2023-07-23T06:46:04.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="jaqMMGkbMi2YLWBFJX5h" version="21.5.0" type="device">
+  <diagram name="第 1 页" id="HZqzXF1gK9PABsdaY3x5">
+    <mxGraphModel dx="2885" dy="-3490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="5580" width="560" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontStyle=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-320" y="5879" as="sourcePoint" />
+            <mxPoint x="250" y="5880" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-3" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontStyle=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-320" y="5759" as="sourcePoint" />
+            <mxPoint x="760" y="5756" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-4" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.0000000000001" y="5909.5199999999995" as="sourcePoint" />
+            <mxPoint x="760" y="5909" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-5" value="&lt;font style=&quot;&quot;&gt;mem_addr_i&lt;br&gt;mem_data_wr_i&lt;br&gt;mem_cacheable_i&lt;br&gt;mem_req_tag_i&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-200" y="5650" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-6" value="mem_rd_i&lt;br&gt;mem_wr_i&lt;br&gt;mem_invalidate_i&lt;br&gt;mem_writeback_i&lt;br&gt;mem_flush_i" style="text;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-195" y="5760" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-7" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="255.00000000000003" y="5830" width="64" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-8" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontStyle=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="5940" as="sourcePoint" />
+            <mxPoint x="252.05" y="5940" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&#39;b0&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="160" y="5910" width="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-10" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontStyle=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="286.44" y="6070" as="sourcePoint" />
+            <mxPoint x="286.44" y="5990" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;mem_cached_addr_o&lt;br style=&quot;font-size: 18px;&quot;&gt;mem_cached_data_wr_o&lt;br style=&quot;font-size: 18px;&quot;&gt;mem_cached_cacheable_o&lt;br style=&quot;font-size: 18px;&quot;&gt;mem_cached_req_tag_o&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="530" y="5650" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-12" value="mem_cached_rd_o&lt;br style=&quot;font-size: 18px;&quot;&gt;mem_cached_wr_o&lt;br style=&quot;font-size: 18px;&quot;&gt;mem_cached_invalidate_o&lt;br style=&quot;font-size: 18px;&quot;&gt;mem_cached_writeback_o&lt;br style=&quot;font-size: 18px;&quot;&gt;mem_cached_flush_o" style="text;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="530" y="5780" width="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;mem_cacheable_i&lt;br&gt;&amp;amp;~hold_w&lt;br&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="302" y="6010" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-14" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.0000000000001" y="6269.5199999999995" as="sourcePoint" />
+            <mxPoint x="760" y="6269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-15" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="255" y="6190" width="64" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontStyle=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="6300" as="sourcePoint" />
+            <mxPoint x="252.05" y="6300" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-17" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&#39;b0&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="160" y="6270" width="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-18" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontStyle=1;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="286.44" y="6430" as="sourcePoint" />
+            <mxPoint x="286.44" y="6350" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;mem_uncached_addr_o&lt;br style=&quot;font-size: 18px;&quot;&gt;mem_uncached_data_wr_o&lt;br style=&quot;font-size: 18px;&quot;&gt;mem_uncached_cacheable_o&lt;br style=&quot;font-size: 18px;&quot;&gt;mem_uncached_req_tag_o&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="530" y="6010" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-20" value="mem_uncached_rd_o&lt;br style=&quot;font-size: 18px;&quot;&gt;mem_uncached_wr_o&lt;br style=&quot;font-size: 18px;&quot;&gt;mem_uncached_invalidate_o&lt;br style=&quot;font-size: 18px;&quot;&gt;mem_uncached_writeback_o&lt;br style=&quot;font-size: 18px;&quot;&gt;mem_uncached_flush_o" style="text;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="530" y="6140" width="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;~mem_cacheable_i&lt;br&gt;&amp;amp;~hold_w&lt;br&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="302" y="6370" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-22" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="5760" as="sourcePoint" />
+            <mxPoint x="760" y="6120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="6120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-23" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="5880" as="sourcePoint" />
+            <mxPoint x="255" y="6240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="6240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-24" value="mem_rd_i&lt;br&gt;mem_wr_i&lt;br&gt;mem_invalidate_i&lt;br&gt;mem_writeback_i&lt;br&gt;mem_flush_i" style="text;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-195" y="5760" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-25" value="mem_rd_i&lt;br&gt;mem_wr_i&lt;br&gt;mem_invalidate_i&lt;br&gt;mem_writeback_i&lt;br&gt;mem_flush_i" style="text;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-195" y="5760" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-26" value="mem_rd_i&lt;br&gt;mem_wr_i&lt;br&gt;mem_invalidate_i&lt;br&gt;mem_writeback_i&lt;br&gt;mem_flush_i" style="text;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-195" y="5760" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-27" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;~mem_cacheable_i&lt;br&gt;&amp;amp;~hold_w&lt;br&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="302" y="6370" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-28" value="mem_rd_i&lt;br&gt;mem_wr_i&lt;br&gt;mem_invalidate_i&lt;br&gt;mem_writeback_i&lt;br&gt;mem_flush_i" style="text;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-195" y="5760" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tuu2TGDZ334qboC4sOV9-29" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;~mem_cacheable_i&lt;br&gt;&amp;amp;~hold_w&lt;br&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="302" y="6370" width="130" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
